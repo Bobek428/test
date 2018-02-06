@@ -1,3 +1,4 @@
+package personApp.model;
 
 public class Person {
     String imie;

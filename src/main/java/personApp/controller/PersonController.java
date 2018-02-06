@@ -1,14 +1,18 @@
-import org.springframework.stereotype.Controller;
+package personApp.controller;
+
+import personApp.model.Person;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
+
+@RestController
 @RequestMapping("/personsController")
-@Controller
 public class PersonController {
     List<Person> myPersons = new ArrayList<Person>();
 

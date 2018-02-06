@@ -1,0 +1,3 @@
+personApp\Application.class
+personApp\model\Person.class
+personApp\controller\PersonController.class
